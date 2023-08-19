@@ -8,6 +8,8 @@
 .main {
   height: 100dvh;
   text-align: center;
+  background-color: lightgray;
+  color: black;
 }
 
 .navbar {
@@ -23,6 +25,7 @@
 
 a {
   text-decoration: none;
+  color: black;
 }
 
 .hero {

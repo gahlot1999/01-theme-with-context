@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  transition: all 0.3s;
+}
+
+.main {
+  height: 100dvh;
+  text-align: center;
+}
+
+.navbar {
+  padding: 2rem;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+.hero {
+  height: 50dvh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero h1 {
+  font-size: 4rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 0.6rem;
+}
+
+button {
+  cursor: pointer;
+  padding: 0.6rem 2rem;
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05rem;
+  border: none;
+  border-radius: 0.4rem;
+  transition: all 0.3s;
+}
+
+button:hover {
+  transform: translateY(-0.2rem);
+}
+
+.theme-btn {
+  padding: 0.6rem 0.8rem;
+  position: fixed;
+  right: 1%;
+  top: 2%;
+}
